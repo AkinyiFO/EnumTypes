@@ -1,6 +1,6 @@
 package dev.labs.s3;
 
-public interface CardInterface extends Comparable<CardWithEnum> {
+public interface CardInterface extends Comparable<CardInterface> {
 
     enum Suit {
         DIAMONDS (1, "Diamonds"),
